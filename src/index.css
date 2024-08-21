@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+  height: 100vh;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main{
+  flex: 1;
+}
+
+.Footer{
+  padding: 20px 10px;
+  text-align: center;
+  background-color: dimgrey;
+}
+
+.Header{
+  padding: 20px 10px;
+  text-align: center;
+  background-color: rgba(146, 149, 136, 0.614);
+}
+ul{
+  list-style: none;
+}
+
+.item{
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px 5px;
+  background-color: rgb(159, 159, 159);
+}
+.item label{
+  flex: 1;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.item input{
+  width: 48px;
+  height: 48px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+svg{
+  width: 48px;
+  height: 48px;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.item svg:focus,
+.item svg:hover{
+  color: red;
+}
+
+  .total-items{ 
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+  }
